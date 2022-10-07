@@ -1,0 +1,403 @@
+/* #title {
+  background-color: #ff4c68;
+} */
+/* Only container föluid in title */
+#title .container-fluid {
+  padding: 0 5% 7%;
+  background-color: #ff4c68; /* !important; */
+}
+#title .navbar {
+  padding-top: 0;
+}
+.nav-img {
+  margin-right: 10px;
+  position: relative;
+  bottom:5px;
+}
+
+* {
+  font-size: 1.3rem;
+}
+
+#brandn {
+
+  font-size: 2.5rem;
+  font-weight:bold;
+  line-height:3;
+  color: yellow;
+}
+
+#features {
+  padding: 0 12%;
+  background-color: white; /* #fff */
+  position: relative;
+  z-index: 1;
+
+  /* z-index: 1;  ONLY WORKS IF ABSOLUTE REL etc.
+  if ip6s was over #features, no need z-index*/
+}
+
+.testimonial-t {
+  font-family: Ubuntu;
+}
+
+.testimonial-img {
+  position: sticky;
+  margin-bottom: 2rem;
+  /* top: 60rem;
+  left: 0.5rem; */
+  width:25%;
+  max-width: 200px;
+  border-radius: 100%;
+  /* float:left; */
+}
+
+.carousel-item {
+    min-height: 650px;
+}
+#testimonials {
+  /* padding: 7% 15%; */
+  background-color: #ef8198;
+  color: #fff;
+  text-align: center;
+}
+
+#cta{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-t {
+  margin: 0 10vw 10vw 10vw;
+  background-color: #ff4c68;
+  font-size: 1.9rem;
+}
+.btn-cta {
+  margin-bottom: 30px;
+}
+
+#pricing {
+  padding: 4%;
+}
+
+#footer {
+  padding: 7%;
+  text-align: center;
+}
+#footer p{
+  font-size: 0.8rem;
+}
+#footer i:hover{
+  color: gold;
+}
+
+.card {
+
+}
+.colcard {
+  /* margin: 20px 0; */
+  padding: 3% 2%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+@media screen and (min-width: 701px) {
+  h2.testimonial-t {
+    /* font-family: Montserrat; */
+    font-weight: 600;
+    /* font-size:1.75rem; */
+    font-size:2rem;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h2.testimonial-t {
+    /* font-family: Montserrat; */
+    font-weight: 600;
+    /* font-size:1.75rem; */
+    font-size:1.3rem;
+    line-height: 1.5;
+  }
+  .carousel-item {
+    min-height: 450px;
+  }
+  .cta-t {
+    margin: 0 10vw 10vw 10vw;
+    background-color: #ff4c68;
+    font-size: 1.5rem;
+  }
+}
+
+.pr-logo {
+  margin:20px;
+  width: 140px;;
+}
+
+#press {
+  background-color: #ef8198;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h2 {
+
+  /* font-family: Montserrat; */
+  font-weight: 600;
+  font-family: Ubuntu;
+  /* font-size:1.75rem; */
+  font-size:2rem;
+  line-height: 1.5;
+}
+.free-p {
+  font-size: 2rem;
+}
+.not-free-t {
+  font-size: 1.3rem;
+}
+/* .testimonials * {
+  font-size: 0.7rem;
+} */
+.features * {
+  text-align: center;
+  line-height: 2;
+}
+
+.fcol {
+  margin: 2.5rem 0;
+}
+
+.card-body {
+  /* min-height:450px;  ### Replaced with bootstraps own class h-100 :::: Better replace back */
+
+  /* padding-bottom: 15%;  Doesnt work */
+}
+
+/* .cardbtn {       :::works with self made up
+  position: absolute;
+  left:20%;
+  right: 20%;
+  bottom: 4%;
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.cbm {
+  margin-top: 60px;
+}
+.thin {
+  color: #8f8f8f;
+  font-size: 0.9rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  /* font-family: "Montserrat"; */
+  font-weight: bold;
+}
+
+.fa-solid {
+  font-size: 3rem;
+  color: #ef8172;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.btn0 {
+  margin: 2rem 3% 0 0;
+  /* width: 20vw; */
+  font-size: 1.3rem;
+}
+.btn1 {
+  font-size: 1.3rem;
+  margin: 2rem 0 0 0;
+  /* width: 20vw; */
+}
+.phones {
+  position: relative;
+  top: 4rem;
+}
+#s9p {
+  display: inline;
+  position: absolute;
+  width: 400px;
+  top: 30px;
+  left:60px;
+}
+#ip6s {
+  display: inline;
+  position: absolute;
+  width: 400px;
+}
+
+@media screen and (min-width: 992px) {
+  .phones {
+    /* margin-top:5rem;  relative doesnt make any difference*/
+    /* top:500px; */
+    bottom: 800px;
+    /* width: 400px; */
+    /* margin-left: 20px; */
+    /* position: relative; */
+    /* right: 70px; */
+    transform: rotate(30deg);
+    /* margin-bottom: 490px; */
+  }
+  #title {
+    max-height: 1040px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #ip6s {
+    margin-top:2rem;
+    width: 450px;
+    margin-left: 0;
+    /* margin-right: 50px; */
+    position: relative;
+    left: 10%;
+    /* left:5vw; Alles was hier steht wird nach unten übertragen falls nicht geändert oder !important */
+    transform: rotate(20deg);
+  }
+  .phones {
+    padding: 0 50%;
+  }
+  #title {
+    max-height: 1400px;
+  }
+}
+@media screen and (max-width: 642px) {
+  .phones {
+    padding: 0 20%;
+  }
+  #s9p {
+    left: 0;
+  }
+  #ip6s {
+    margin-top:2rem;
+    width: 400px;
+    margin-left: 0;
+    /* margin-right: 50px; */
+    position: relative;
+    /* left: 8rem; */
+    left: 0;
+    right: 2rem;
+    transform: rotate(10deg);
+  }
+  #title {
+    max-height: 1400px;
+  }
+  h1 {
+    font-size: 2.4rem !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .btn0 {
+    margin: 2rem 6% 0 4%;
+    /* width: 20vw; */
+    width: 32vw;
+    font-size: 4vw;
+  }
+  .btn1 {
+    font-size: 4vw;
+    /* width: 20vw; */
+    width: 32vw;
+    margin: 2rem 0 0 4%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.8rem !important;
+  }
+  #ip6s {
+    width: 120%;
+  }
+  #s9p {
+    width: 230px;
+  }
+  #title {
+    max-height: 1100px !important;
+  }
+  .cta-t {
+    font-size: 1.1rem;
+  }
+  .btn-cta {
+    width: 130px;
+    font-size: 1rem;
+    /* margin: 0 0 0 50px; */
+  }
+
+  .card-body * {
+    /* height: 400px; */
+    font-size: 1rem;
+  }
+  .card-header h3 {
+    font-size: 1.1rem;
+  }
+  h2.testimonial-t {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+/* DETERMINE LG MD SM on javascript bootsrap */
+
+
+/* Add containerfluid everywhere with padding? Yes also Testimonials */
+.container-fluid {
+  padding: 5% 8%;
+}
+
+h1 {
+  /*font-family: "Montserrat";*/ /* -Light etc. in google fonts */
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.center-t {
+
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/*                  TIPS
+
+
+
+
+
+
+.container.title = class="container title"
+
+
+section#background-color:white * ??? {
+  font-color: black
+}
+else ??? {
+  font-color :black
+}
+ also:
+ colored-section { red }
+
+#peachy-section {
+  orange
+}
+
+div#title the div with the id title, not child
+
+element -> class -> id -> internal css:
+dont use indstead (only as seperation or maybe for bootstrap elements)
+
+center-t /center-m etc. class indstead of giving all the property center*/
