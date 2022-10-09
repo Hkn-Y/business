@@ -211,7 +211,7 @@ h3 {
 }
 
 .btn0 {
-  margin: 2rem 3% 0 0;
+  margin: 2rem 2% 0 0;
   /* width: 20vw; */
   font-size: 1.3rem;
 }
@@ -246,47 +246,79 @@ h3 {
     /* margin-left: 20px; */
     /* position: relative; */
     /* right: 70px; */
+    display: inline;
+    width: 40%;
     transform: rotate(30deg);
     /* margin-bottom: 490px; */
   }
+  /* div.phones * {
+    width: calc(250px + 5vw) !important;
+  } */
+  /* div.phones {
+    width: calc(40% + 5vw) !important;
+  } */
   #title {
     max-height: 1040px;
+  }
+  #title > div > div {
+    margin-right: 30px;
   }
 }
 
 @media screen and (max-width: 991px) {
+  /* div.row {
+    margin-right: 7px;     |
+  }                 SAME \|/     */
+  #title > div > div {
+    margin-right: 7px;
+  }
   #ip6s {
     margin-top:2rem;
-    width: 450px;
+    width: 55vw;
     margin-left: 0;
     /* margin-right: 50px; */
     position: relative;
-    left: 10%;
+    right: 17vw;
     /* left:5vw; Alles was hier steht wird nach unten übertragen falls nicht geändert oder !important */
     transform: rotate(20deg);
   }
+  #s9p {
+    width: 53vw;
+    left: 0;
+  }
   .phones {
-    padding: 0 50%;
+    /* left: 20%; */
+    left: 0;
+    right: 0;
+    padding: 0 40%;
   }
   #title {
     max-height: 1400px;
   }
 }
 @media screen and (max-width: 642px) {
+  .tb {
+    width: 35vw;
+  }
+  .btn0 {
+    margin-right: 10%;
+  }
   .phones {
-    padding: 0 20%;
+    /* padding: 0 0 0 20%; */
+    /* left:10%; */
   }
   #s9p {
     left: 0;
   }
   #ip6s {
     margin-top:2rem;
-    width: 400px;
+    /* width: 400px; */
     margin-left: 0;
     /* margin-right: 50px; */
     position: relative;
     /* left: 8rem; */
-    left: 0;
+    /* left: 0; */
+    right: 6vw !important;
     right: 2rem;
     transform: rotate(10deg);
   }
@@ -314,12 +346,12 @@ h3 {
     text-align: center;
     font-size: 1.8rem !important;
   }
-  #ip6s {
+  /* #ip6s {
     width: 120%;
-  }
-  #s9p {
+  } */
+  /* #s9p {
     width: 230px;
-  }
+  } */
   #title {
     max-height: 1100px !important;
   }
