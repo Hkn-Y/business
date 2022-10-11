@@ -1,7 +1,16 @@
 /* #title {
   background-color: #ff4c68;
 } */
-/* Only container föluid in title */
+/* Only container fluid in title */
+
+body, html {
+ width: 100vw;
+ min-width: 100vw;
+ max-width: 100vw;
+
+ overflow-x: hidden
+ overflow-y: auto
+}
 #title .container-fluid {
   padding: 0 5% 7%;
   background-color: #ff4c68; /* !important; */
